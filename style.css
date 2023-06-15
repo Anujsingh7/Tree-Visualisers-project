@@ -1,0 +1,116 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgba(190, 174, 174, 0.455);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  input {
+    font-size: 1.1em;
+    margin: 15px;
+    background-color: rgb(247, 239, 239);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #1c1d1b
+  }
+ 
+  
+  label  {
+    font-size: 1.2rem;
+    
+    
+  }
+  
+  #title {
+  
+    background-color: rgba(0, 0, 0, 0.386);
+    color: black;
+  
+    border: none;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: 2.95rem;
+  
+  }
+  
+  #blurb {
+    background-color: rgba(0, 0, 0, 0.386);
+    text-align: center;
+    margin: 1em auto 1em auto;
+    width: 500px;
+    padding: .5em;
+    border-radius: 5px;
+  }
+  
+  #visual-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: .5em;
+  }
+  
+  #array-visual {
+    margin: 1em;
+  }
+  
+  header {
+    background-color:rgba(0, 0, 0, 0.386);
+  
+    background-size: cover;
+    width: 100%;
+    padding: 1em;
+    color:rgb(20, 5, 5);
+  }
+  #options{
+    background-color: rgba(0, 0, 0, 0.157);
+    display: flex;
+    /* padding: 29px; */
+    justify-content: space-around;
+  }
+  button {
+    margin: 10px;
+    padding: 20px;
+    background-color:  rgba(0, 0, 0, 0.386);
+    font-size: 1.1em;
+    color: rgb(247, 239, 239);
+    font-size: 18px;
+    padding: .25em .5em .25em .5em;
+    border: none;
+    border-radius: 3px;
+    font-weight: normal;
+  }
+  button:hover{
+    background-color: rgba(29, 37, 34, 0.711);
+  }
+   
+  button:hover,rect:hover, circle:hover, text.circle:hover, text.rect:hover {
+    cursor: pointer;
+  }
+  
+  .subtext {
+    font-size: .8em;
+    font-weight: 400;
+  }
+  
+  .svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: top;
+    overflow: hidden;
+  }
+  
+  .svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
